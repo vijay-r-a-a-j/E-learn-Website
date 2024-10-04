@@ -1,8 +1,15 @@
 import React from 'react'
+import Home from './components/Home/Home'
+import Vision from './components/Vision/Vision'
+import OurHistory from './components/OurHistory/OurHistory'
 
 const App = () => {
   return (
-    <div className='w-full h-screen bg-rose-100 text-5xl text-center my-auto'>Welocme to E-learn app</div>
+    <div className='font-montserrat'>
+      <Home/>
+      <Vision/>
+      <OurHistory/>
+    </div>
   )
 }
 
