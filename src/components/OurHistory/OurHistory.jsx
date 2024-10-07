@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from'../../assets/PeopleImage1.jpg'
+import Image from'../../assets/FemaleImage6.jpg'
 
 const OurHistory = () => {
   return (
