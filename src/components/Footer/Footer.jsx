@@ -10,8 +10,8 @@ const Footer = () => {
     <div className='bg-fuchsia-200 md:px-20 '>
         <div>
             <div className='flex flex-wrap md:flex-nowrap justify-between py-10 border-b border-gray-700'>
-                <h1 className='text-4xl font-semibold'>Follow us no filter.</h1>
-                    <div className='flex gap-2 md:gap-10 mt-5'>
+                <h1 className='text-3xl md:text-4xl font-semibold '>Follow us no filter.</h1>
+                    <div className='flex gap-2 md:gap-10 mt-5 mx-auto lg:mx-0'>
                         <a><TiSocialLinkedin  className='w-7 h-7'/></a>
                         <a><TiSocialFacebook  className='w-7 h-7'/></a>
                         <a><TiSocialInstagram className='w-7 h-7' /></a>

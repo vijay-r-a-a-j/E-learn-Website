@@ -4,8 +4,8 @@ import Image2 from '../../assets/FemaleImage1.jpg'
 
 const About = () => {
   return (
-    <div className='w-[80%] mx-auto'>
-        <div className='flex my-20'>
+    <div className=' w-full lg:w-[80%] mx-auto text-center lg:text-start'>
+        <div className='flex flex-wrap lg:flex-nowrap my-20 justify-center'>
              <div className='my-auto'>
                   <button className='px-5 py-2 border border-black font-bold mb-5 rounded-full hover:bg-black hover:text-white'>A TUTION FREE PRIVATE SCHOOL</button>
                   <h1 className='text-5xl font-bold mb-5'>An Exceptional<br/>Education</h1>
@@ -16,14 +16,14 @@ const About = () => {
                   are intentionally designed to foster a strong.</p>
              </div>
              <div className='justify-center'>
-             <img className=' ml-32 w-[400px] h-[500px] rounded-t-full rounded-b-full' src={Image1}/>
+             <img className='mx-auto lg:ml-32 max-w-80 max-h-96 lg:max-w-[400px] lg:max-h-[600px] rounded-xl lg:rounded-t-full lg:rounded-b-full mt-10 lg:mt-0' src={Image1}/>
              </div>
         </div>
-        <div className='flex my-20'>
-            <div>
-            <img className=' w-[400px] h-[500px] rounded-t-full rounded-b-full' src={Image2}/>
+        <div className='flex flex-wrap lg:flex-nowrap my-20'>
+            <div className='mx-auto'>
+            <img className='max-w-80 max-h-96 lg:max-w-[400px] lg:max-h-[600px] rounded-xl lg:rounded-t-full lg:rounded-b-full mb-10 lg:mb-0' src={Image2}/>
             </div>
-            <div className='my-auto ml-32'>
+            <div className='my-auto mx-auto lg:ml-32'>
                 <button className='px-5 py-2 border border-black font-bold mb-5 rounded-full  hover:bg-black hover:text-white'>LONG TERM SUCCESS</button>
                 <h1  className='text-5xl font-bold mb-5'>Graduate Support<br/>Program</h1>
                 <p  className=' font-semibold'>Serviam Girls Academy is committed to ensuring the long-term<br/>

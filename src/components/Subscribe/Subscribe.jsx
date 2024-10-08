@@ -12,7 +12,7 @@ const Subscribe = () => {
         <p className='font-semibold mb-5'>Teaches you How To Communicate Your Unique Comedy Skillfully. Virtual comedy<br/>
         workshop. Virtual stand up comedy. Virtual comedy class.</p>
        <form className='w-full  md:w-[500px] flex mx-auto border-2 border-b-black py-5'>
-        <input className='w-11/12 bg-transparent outline-none placeholder-black placeholder-xl placeholder:hidden'
+        <input className='w-11/12 bg-transparent border-fuchsia-200 placeholder-black placeholder-xl placeholder:hidden'
          type='email'
           placeholder='Enter your E-mail address'
           value={email} onChange={(e)=>setEmail(e.target.value)}/>
