@@ -1,27 +1,28 @@
 import React, { useState } from 'react'
 import { BsMenuButtonFill } from "react-icons/bs";
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
     const menuItems = [
         {
-            name:"Home",
-            link:"/home"
+            link:"Home",
+            path:"home"
         },
         {
-            name:"About",
-            link:"/about"
+            link:"About",
+            path:"about"
         },
         {
-            name:"Student Info",
-            link:"/studentInfo"
+            link:"Student Info",
+            path:"studentInfo"
         },
         {
-            name:"Support",
-            link:"/support"
+            link:"Support",
+            path:"support"
         },
         {
-            name:"Admissions",
-            link:"/admission"
+            link:"Admissions",
+            path:"admission"
         }
     ]
     
@@ -35,9 +36,9 @@ const Navbar = () => {
         <div className={`lg:my-0 my-10 absolute lg:static bg-fuchsia-300 lg:bg-fuchsia-200 py-10 lg:py-0  pr-10 lg:pr-0 rounded-xl lg:rounded-none 
                         left-0 transition-all duration-500 ease-in ${menuOpen ? "left-0" :"left-[-250px]"}`}>
             <ul className='lg:flex gap-7 lg:gap-5 font-semibold '>
-            {menuItems.map((item,index)=>(
-                <li className=' hover:bg-black hover:text-white px-5 py-2 rounded-lg duration-300 ' key={index} >
-                    <a href={item.link}>{item.name}</a>
+            {menuItems.map((menu)=>(
+                <li  className=' hover:bg-black hover:text-white px-5 py-2 rounded-lg duration-300 cursor-pointer' key={menu.link} >
+                    <Link spy={true} smooth={true} offset={-100} to={menu.path}>{menu.link}</Link>
                 </li>
             ))}
             </ul>

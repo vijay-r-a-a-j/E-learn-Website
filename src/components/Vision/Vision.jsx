@@ -5,7 +5,7 @@ import Image3 from '../../assets/PeopleImage3.jpg'
 
 const Vision = () => {
   return (
-    <div className='mt-10 pt-32 lg:pt-60 mb-20'>
+    <div className='mt-10 pt-32 lg:pt-60 pb-20'>
         <div className=' w-[80%] mx-auto'>
         <div className=' hidden lg:flex justify-between '>
             <h1 className='text-3xl  lg:text-5xl font-bold'>Educating, Inspiring,<br/>& Transforming</h1>

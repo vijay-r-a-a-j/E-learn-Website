@@ -3,8 +3,8 @@ import Image from'../../assets/FemaleImage6.jpg'
 
 const OurHistory = () => {
   return (
-    <div className='bg-orange-200  lg:h-screen py-10 lg:py-20 lg:px-32'>
-        <div className='flex flex-wrap lg:flex-nowrap gap-20'>
+    <div className='bg-orange-200  lg:h-screen py-10 lg:py-20 lg:px-32' >
+        <div className='flex flex-wrap lg:flex-nowrap gap-20' id="studentInfo">
           <div className='mx-auto'>
             <img className=' max-w-80 max-h-96 lg:max-w-[400px] lg:max-h-[600px] rounded-xl lg:rounded-t-full lg:rounded-b-full' src={Image}/>
           </div>

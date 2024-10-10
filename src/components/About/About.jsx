@@ -4,7 +4,7 @@ import Image2 from '../../assets/FemaleImage1.jpg'
 
 const About = () => {
   return (
-    <div className=' w-full lg:w-[80%] mx-auto text-center lg:text-start'>
+    <div className=' w-full lg:w-[80%] mx-auto text-center lg:text-start' id="about">
         <div className='flex flex-wrap lg:flex-nowrap my-20 justify-center'>
              <div className='my-auto'>
                   <button className='px-5 py-2 border border-black font-bold mb-5 rounded-full hover:bg-black hover:text-white'>A TUTION FREE PRIVATE SCHOOL</button>
